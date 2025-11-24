@@ -1,4 +1,6 @@
 Hello World! Welcome to Zuitt Open House!
 
-Testing
-Test
+Topics
+1. Git
+2. HTML
+3. CSS
