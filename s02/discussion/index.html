@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- html tag tells the browser that our file contains html elements -->
+<html>
+	<!-- head tag contains the details of the html file which is not visible in the browser -->
+	<head>
+		<!-- meta tag usually contains the additional information about our page -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- title tag sets the title of the webpage, also it is the tab name -->
+		<title>Introduction to HTML</title>
+	</head>
+	<body><!-- body tag will contain the actual content of the browser -->
+		<!-- h# tag creates heading elements that are larger in size and bolder text. the higher the number, the smaller the text. heading tags create block elements. -->
+		<!-- there are 6 heading sizes from h1 to h6 tags -->
+		<h1 id="top">Zuitt Tech Career Program</h1>
+		<a href="#bottom">Link to Bottom</a>
+
+		<h2>Vincent Niño Apas</h2>
+		<!-- creates paragraph elements which are normal size text. there are also block elements -->
+		<!-- br tag is an example of a self closing tag -- breaks the line and automatically starts the next content/element in a new line-->
+		<p>Welcome to Zuitt! <br/> Let's enumerate all the things we will study in this open house.</p>
+		<!-- ordered list (1,2,3...) - create a numbered lists of elements -->
+		<ol>
+			<!-- creates a list item -->
+			<li>Git Basics</li>
+			<li>HTML Tags</li>
+			<li>HTML Attributes</li>
+			<li>HTML Hyperlinks</li>
+			<li>HTML Forms</li>
+			<li>CSS Introduction</li>
+			<li>CSS Common Styling Properties</li>
+		</ol>
+
+		<div>
+			<h4>Relative Links</h4>
+			<!-- ./ is used to link another html page within the same folder -->
+			<a href="./attributes.html">Attribute Page</a>
+			<a href="./links.html">Links Page</a>
+			<a href="./index.html">Index Page</a>
+		</div>
+
+		<!-- relative links can be also be used for image source if the image is available -->
+		<div id="images">
+			<img src="" />
+		</div>
+
+		<div id="bottom">
+			<!-- You can also link within a page using the elements ID as value in the href attribute -->
+			<h4>Relative Links within Pages</h4>
+			<!-- # means ID -->
+			<a href="#top">Return to Top</a>
+		</div>
+
+	</body>
+</html>
