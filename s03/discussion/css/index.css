@@ -1,0 +1,117 @@
+/* CSS Ruleset */
+/* Selector {
+	declaration
+	property: value;
+} */
+
+/* Universal Selector */
+/* It means all */
+
+* {
+	/* font-family property changes the font style */
+	/* Courier New is used as a primary font and Monospace is used as a secondary font */
+	font-family: "Courier New", monospace;
+
+	/* CSS Reset */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Type Selector */
+/* Targets elements using its tag name */
+h1{
+	font-family: "Tahoma", sans-serif;
+}
+
+body{
+	height: 20rem;
+	/* Background color property changes the bg color of the element */
+	background-color: gray;
+	/* background image property adds the images as the background of the element */
+	background-image: url('https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+section{
+	/* text-align property changes the alignment of the text */
+	text-align: center;
+}
+
+/* Class Selector */
+/* targets element with the class value */
+/* "." means classa */
+.nav-link{
+	/*font-size property changes the size of the font*/
+	font-size: 18px;
+}
+
+nav{
+	background-color: white;
+	text-align: center;
+	/* padding property allows space between the element and it's border */
+	padding: 15px;
+	margin: 0 auto;
+	/* margin-top: 0;
+	position: fixed;
+	width: 100%; */
+}
+
+.title{
+	/* color property changes the color of the text */
+	/*color: green;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* id selector */
+/*target element with the specific id value*/
+
+#hello{
+	color: black;
+	font-size: 2rem;
+}
+
+#logo{
+	/* height property changes the vertical dimensions of the element */
+	height: 300px;
+	/* width property changes the vertical dimensions of the element */
+	width: 300px;
+	/* border-radius property changes the corners of an element into rounded corners */
+	border-radius: 150px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.module-card{
+	height: 350px;
+	width: 800px;
+	padding: 50px;
+	/* border property adds a border into the element */
+	border: 1px solid black;
+	background-color: white;
+	/* margin property is somehow the opposide of a padding which allows space between elements */
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+#modules{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#moduleHeader{
+	margin-top: 30px;
+}
+
+.module-image{
+	height: 200px;
+	width: 200px;
+}
